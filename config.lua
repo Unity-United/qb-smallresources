@@ -9,7 +9,13 @@ Config.AFK = {
         ['admin'] = true,
         ['god'] = true
     },
-    secondsUntilKick = 1800 -- AFK Kick Time Limit (in seconds)
+    secondsUntilKick = 1800, -- AFK Kick Time Limit (in seconds)
+    kickInCharMenu = false -- Set to true if you want to kick players for being AFK even when they are in the character menu.
+}
+
+Config.HandsUp = {
+    command = 'hu',
+    keybind = 'X',
 }
 
 Config.Binoculars = {
@@ -234,6 +240,7 @@ Config.BlacklistedPeds = {
     [`s_m_y_hwaycop_01`] = true,
 }
 
+Config.DisableVestDrawable = false -- Set to TRUE to disable the vest equipped when using heavy armor.
 Config.HolsterVariant = {130,122,3,6,8}
 Config.HolsterableWeapons = {
     --'WEAPON_STUNGUN',
